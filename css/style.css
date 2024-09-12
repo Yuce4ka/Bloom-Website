@@ -1,0 +1,148 @@
+p{
+    font-family: 'Advent Pro', sans-serif;
+    
+}
+
+li {
+    list-style: none;
+}
+
+.navbar , footer {
+    background-color: #26292E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+   
+    
+}
+
+
+.logo {
+    color: white;
+    font-size: 46px;
+    font-family: 'Butterfly Kids', sans-serif;
+    margin-left: 200px;
+    font-weight: 500;
+
+}
+
+.navbar .links{
+    margin-right: 200px;
+}
+.navbar i, footer i {
+    color: white;
+    font-size: 24px;
+    
+}
+
+
+.navbar .links ul {
+    display: flex;
+    gap: 30px;
+}
+
+.navbar .links a {
+    color: white;
+    text-decoration: none;
+    
+}
+/* --------------------------------------header--------------------- */
+header{
+    background-color: #EB8A9F;
+    color: white;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    margin-top: 0;
+
+   
+}
+header .paragraph{
+   
+    padding: 20px;
+    width: 400px;
+    margin-left: 200px;
+}
+header p{
+    opacity: 0.7;
+}
+header .foto{
+    margin-top: 30px;
+}
+header button{
+   background-image: linear-gradient(to top, #000000, #1b1b1b, #303030, #464646, #5d5d5d);
+    color: white;
+    padding: 12px 20px;
+
+    border-radius: 10px;
+    margin: 20px  20px 20px 0;
+    cursor: pointer;
+}
+header button:hover{
+    background-image: linear-gradient(to top, #2e2d2d, #717171, #807f7f, #8f8e8e, #9a9999);
+}
+
+/* ------------------------------------Section cards --------------------------- */
+.cards{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    page-break-inside: 50px;
+    margin: 32px 200px ;
+    color: #434343;
+}
+ .card {
+    width: 300px;
+
+}
+.card p{
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+hr{
+    
+    border: 5px solid #FEE3E9;
+}
+
+/* =-----------------------Section Check----------------------- */
+.check{
+    
+    display: grid;
+    grid-template-columns: 600px 400px;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+.check img{
+ 
+    border-radius: 20px;
+    width: 180px;
+    margin: 20px;
+}
+.check h2{
+    margin: 20px;
+    color: #444444;
+}
+.check p{
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.check p span{
+    color: #222222;
+    font-style: italic;
+    font-weight: bold;
+  
+}
+
+/* ---------------------------------Footer---------------------- */
+footer{
+    color: white;
+
+}
+footer ul{
+    display: flex;
+    margin-right:200px;
+    gap: 20px;
+}
+footer p{
+    margin-left: 200px;
+}
